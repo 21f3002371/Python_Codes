@@ -10,4 +10,5 @@ print(s[::2]) #Accessing the entire string
 
 # Negative Parameter : Backward Reading #Reversing a string
 print(s[-1::-1])
+# OR
 print(s[::-1])
