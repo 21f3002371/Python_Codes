@@ -1,6 +1,6 @@
 def input_list(n):
     x = []
-    for i in range(n+1):
+    for i in range(n): 
         j = int(input())
         x.append(j)
         
