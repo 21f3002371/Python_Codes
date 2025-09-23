@@ -28,9 +28,14 @@ print(s.replace('Mangoes', 'Pineapple',1))'''
 '''print("utkarshmishra7503@gmail.com".isalnum()) # Returns False '''
 
 # 13) .count(): Finds the number of occurrences of a substring in a given string Syntax: count(sub,start,end)
-print(("Hello Halo! Namaste"*5).count('Halo!'))
-# 14) .find(): Returns the index of the first occurrence of the substring Syntax : find(sub,string,end)
-print("Hello Dear Utkarsh".find('U'))
+# 14) .find(): Returns the index of the FIRST occurrence of the substring Syntax : find(sub,string,end)
+# 15) .rfind(): Returns the index of the LAST occurrence of the substring
+'''print(("Hello Halo! Namaste"*5).count('Halo!'))
+print("Hello Dear Utkarsh".find('U'))'''
+
+# 16) .index()/.rindex() : Same as .find()/.rfind()
+# only difference is if substring not found it raise 'ValueError' while .find()/.rfind() returns -1
+
 
 
 
