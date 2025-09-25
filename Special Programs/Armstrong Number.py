@@ -1,16 +1,22 @@
-#To check armstrong number of three digit number
+#To check armstrong number of n-digit number
 num = int(input('Enter a n-digit number:'))
-digit = num
+temp1 = num
 digit_length = 0
-while digit > 0:
+
+#To find the length of the digit
+while temp1 > 0:
     digit_length += 1
-    digit //= 10
+    temp1 //= 10
+    
+# Main loop for checking Armstrong Number
 sum = 0
-temp = num
-while temp > 0:
-    digit = temp%10
+temp2 = num
+while temp2 > 0:
+    digit = temp2%10
     sum += digit**digit_length
-    temp //= 10
+    temp2 //= 10
+
+# Final Check if Number equal to Sum
 if num == sum:
     print("Armstrong Number")
 else:
