@@ -3,7 +3,7 @@ def AverageArray(A):
     sum = 0
     for i in A:
         sum += i
-    average = sum//len(A)
+    average = sum/len(A)
     return average
 
 n = int(input("Enter the length of Array"))
