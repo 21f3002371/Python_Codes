@@ -20,4 +20,8 @@ for name in A:
           length_dict[len(name)].append(name)
 print(length_dict)
 print(max(length_dict))
-    
+
+# Another Useful thing
+'''from collections import defaultdict
+
+length_dict = defaultdict(list)'''
