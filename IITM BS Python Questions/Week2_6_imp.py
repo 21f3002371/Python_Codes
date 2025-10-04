@@ -12,7 +12,7 @@ for j in s:
 print(vowel)
 # Checking if all Dictionary key elements are zero or not
 status = False
-for i in vowel.values():
+for i in vowel.values(): #key values
     if i != 0:
         status = True
 present_vowels = [k for k in vowel if vowel[k] != 0]
