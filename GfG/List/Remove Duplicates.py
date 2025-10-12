@@ -8,9 +8,3 @@ for i in range(len(A)):
         dict[A[i]] = 1
 keys = dict.keys()
 print(list(keys))
-     
-        
-
-            
-
-
